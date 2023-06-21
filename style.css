@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.logo p{
+    color: rgb(18, 156, 110);
+    font-size: 65px;
+    margin: 0;
+}
+
+.menu
+{
+ width: 900px;
+ border: 1px solid #0f0548;
+ height: 80px;
+ background-color: #fcfbfb;
+ font-family: Helvetica, sans-serif;
+ font-size: 25px;
+ border-radius: 5px;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+}
+
+ /*tạo kiểu cho menu ( ngang ) */
+.menu ul
+{
+  margin-top:  42px;
+}
+.menu ul li
+{
+  list-style-type: none;
+  display: inline;
+  margin-left: 50px; 
+}
+
+.main-menu-item a{
+    text-decoration: none;
+    color: rgba(45, 40, 40, 0.502);
+    text-transform: capitalize;
+    padding-top :40px ;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+.main-menu-item-active a{
+    color: rgb(6, 12, 62);
+}
+
+.menu li:hover{
+    background-color:rgb(126, 152, 126);
+   }
+
+.btn {
+    color: rgba(35, 31, 31, 0.502);
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+}
+
+.btn1:hover{
+    background-color:rgb(14, 91, 26);
+   }
+
+.btn2:hover{
+    background-color:rgb(123, 9, 9);
+   }
+
+.banner {
+    border : 1px solid green ;
+    width: 1000px;
+    height: 300px;
+    color:white ;
+}
+
+.banner-description{
+    border: 1px solid red;
+}
+.btn-info{
+    background: rgba(18, 156, 110, 0.8);
+    color: #fff;
+}
+.btn-send:hover{
+    background-color:rgba(8, 79, 19, 0.8);
+   }
+
+.btn-try:hover{
+    background-color:rgba(79, 48, 8, 0.8);
+   }
+.btn-danger{
+    background: rgba(156, 34, 18, 0.8);
+    color: #fff;
+}
+
+.btn-warning{
+    background: rgba(156, 96, 18, 0.8);
+    color: #fff;
+}
+
+.btn-view {
+    background:rgba(165, 165, 165, 0.8);
+    color :#fff;
+}
+
+.banner-description-title{
+    font-weight: bold;
+    font-size: 45px;
+}
+.banner-description-break{
+    width: 100%;
+    border: 1px solid rgba(18, 156, 110, 0.8);
+    border-top-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+}
+.banner-description-content{
+    font-weight: 700;
+}
+
+.btn-round{
+    border-radius: 50px;
+}
+
+.company {
+    display: flex;
+}
+
+.company-icon {
+    position: relative;
+    padding: 0 50px;
+    display: flex;
+}
+
+.company-icon-img {
+    object-fit: contain;
+    width: 50px;
+    height:50px;
+}
+
+.text-grey{
+    color: #848383;
+}
+.text1 {
+    color:rgb(33, 33, 33);
+}
+.form-control-input{
+    border: none;
+    border-bottom: 1px solid #aaa;
+}
+.btn-sm{
+    padding: 5px;
+    width: 80px;
+    height: 25px;
+    font-size: 14px;
+}
